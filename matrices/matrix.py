@@ -1,8 +1,7 @@
 from typing      import Self
 from dataclasses import dataclass
 
-
-@dataclass
+@dataclass(frozen=True)
 class Matrix:
     matrix: list
     
@@ -17,6 +16,10 @@ class Matrix:
     @property
     def size(self) -> str:
         return f"({self.rows}x{self.columns})"
+    
+    def transpose(self) -> Self:
+        matrix = [[self.matrix[j][i] for j in range(self.rows)] for i in range(self.columns)]
+        return Matrix(matrix)
     
     # MAGIC METHODS
     def __post_init__(self) -> None:
