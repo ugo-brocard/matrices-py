@@ -48,7 +48,7 @@ class Matrix:
         if self.columns != other.rows:
             raise Exception(f"Matrix a should have a columns number equals to the matrix b rows number ({self.columns} != {other.rows})")
 
-        matrix = matrix = self.rows*[self.columns*[0]]
+        matrix = [[0 for _ in range(other.columns)] for _ in range(self.rows)]
         for i in range(self.rows):
             for j in range(other.columns):
                 cell = 0
