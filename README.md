@@ -1,11 +1,22 @@
 ## Matrices.py
-matrices-py is a python module to:
-- [x] Add matrices
-- [x] Subtract matrices
-- [x] Multiply matrices either by a scalar or another matrix
-- [x] Transpose a matrix
+<div align="center">
+    <b>Matrices.py</b> is a powerful and user-friendly Python package designed for efficient manipulation and operations on matrices. Whether you're a data scientist, machine learning engineer, or mathematician, <b>Matrices.py</b> provides a versatile set of tools to streamline your matrix-related tasks.
+    <br>
+    <br>
+    <img alt="GitHub License" src="https://img.shields.io/github/license/ugo-brocard/matrices-py"/>
+    <img alt="GitHub Workflow Status (with event)" src="https://img.shields.io/github/actions/workflow/status/ugo-brocard/matrices-py/publish.yml"/>
+    <img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/matrices-py"/>
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ugo-brocard/matrices-py"/>
+</div>
 
-and other things will come soon...
+## ✨ Key features
+- **Matrix Operations**
+    - [x] Add matrices
+    - [x] Subtract matrices
+    - [x] Multiply matrices either by a scalar or another matrix
+    - [x] Transpose a matrix
+
+- *Other features are coming soon*
 
 It works with python 3.12 or later
 
