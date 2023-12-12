@@ -14,8 +14,8 @@ class Matrix:
         return len(self.matrix[0])
     
     @property
-    def size(self) -> str:
-        return f"({self.rows}x{self.columns})"
+    def size(self) -> tuple:
+        return (self.rows, self.columns)
     
     def transpose(self) -> Self:
         matrix = [[self.matrix[j][i] for j in range(self.rows)] for i in range(self.columns)]
@@ -59,3 +59,5 @@ class Matrix:
                 matrix[i][j] = cell
         
         return Matrix(matrix)
+    
+print(Matrix([[10, 12, 30], [95, 6, 87]]))

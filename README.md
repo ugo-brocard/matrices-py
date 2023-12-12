@@ -80,7 +80,7 @@ c = Matrix([
     [1, 5, 3]
 ])
 
-# How to add two matrices
+# How to add two matrices ?
 matrix = a + b
 print(matrix.matrix)     # Output: [[3, 13, 4], [8, 18, 1], [8, 9, 12]]
 
@@ -108,7 +108,7 @@ c = Matrix([
     [1, 5, 3]
 ])
 
-# How to add two matrices
+# How to subtract two matrices ?
 matrix = a - b
 print(matrix.matrix)     # Output: [[-1, -3, 2], [2, 0, 1], [6, -7, -2]]
 
